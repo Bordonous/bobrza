@@ -8,7 +8,7 @@ import ipywidgets
 import geopy.geocoders
 from folium.plugins import Fullscreen, minimap
 
-st.set_page_config(layout="centered", initial_sidebar_state="expanded")
+st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 #ładowanie pliku z punktami turystycznymi
 location='D:/streamlit/bobrza1.csv'
 bobrza_locations = pd.read_csv(location)
